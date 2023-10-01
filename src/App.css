@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -22,6 +28,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 .App-link {
@@ -37,6 +46,35 @@
   }
 }
 
-.store-image {
-  
+.lazzoni-store-img{
+  height: 100%
+}
+
+.lazzoni-store-frame {
+  height: 100%
+}
+
+.card-frame {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  padding-top: 50px;
+}
+.card {
+  width: 150px;
+  height: 230px;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: 4px 4px 30px #282c344f;
+  justify-content: space-between;
+}
+
+.titleAndPrice {
+  height: 50%;
+  padding-top: 30px;
 }
