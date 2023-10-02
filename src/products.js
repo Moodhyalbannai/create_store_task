@@ -1,7 +1,7 @@
 
 const products = [
     {
-        name: "Haven Loft Leather",
+        name: "Leather Sofa",
         price: "400 KD",
         image: "https://www.westelm.com.kw/assets/styles/VariantProductImages/PW7139505/image-thumb__197312__product_zoom_large_800x800/202318_0076_img20z.jpg"
     },
