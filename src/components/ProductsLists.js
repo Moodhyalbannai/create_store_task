@@ -5,7 +5,7 @@ import ProductItem from "./ProductItem";
 
 const ProductsLists = () => {
   const productsLists = products.map((product) => {
-    return <ProductItem key={product.id} props={product} />;
+    return <ProductItem key={product.id} product={product} />;
   });
   return <div className="card-frame">{productsLists}</div>;
 };
@@ -18,7 +18,7 @@ ALTERNATIVE 1
 const ProductsLists = () => {
   const productsLists = products.map((product) => {
     return (
-      <ProductItem props={product}/>
+      <ProductItem product={product}/>
     );
   });
   return <div className="card-frame">{productsLists}</div>;
