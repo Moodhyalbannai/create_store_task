@@ -5,15 +5,25 @@ import ProductItem from "./ProductItem";
 
 const ProductsLists = () => {
   const productsLists = products.map((product) => {
+    return <ProductItem key={product.id} props={product} />;
+  });
+  return <div className="card-frame">{productsLists}</div>;
+};
+
+export default ProductsLists;
+
+/*
+ALTERNATIVE 1
+
+const ProductsLists = () => {
+  const productsLists = products.map((product) => {
     return (
-      <ProductItem
-        image={product.image}
-        name={product.name}
-        price={product.price}
-      />
+      <ProductItem product={product}/>
     );
   });
   return <div className="card-frame">{productsLists}</div>;
 };
 
 export default ProductsLists;
+
+*/
