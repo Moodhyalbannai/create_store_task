@@ -18,7 +18,7 @@ ALTERNATIVE 1
 const ProductsLists = () => {
   const productsLists = products.map((product) => {
     return (
-      <ProductItem product={product}/>
+      <ProductItem props={product}/>
     );
   });
   return <div className="card-frame">{productsLists}</div>;
