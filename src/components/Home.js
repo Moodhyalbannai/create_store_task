@@ -12,12 +12,10 @@ const Home = () => {
           </div>
           <h4>Crafted with Excellence</h4>
         </div>
-
         <div className="shopping">
           <img src="furniture_store/src/logo.svg" />
         </div>
-
-        <div className="shadow-overlay"></div>
+        s<div className="shadow-overlay"></div>
       </div>
     </div>
   );
