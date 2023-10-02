@@ -9,7 +9,7 @@ function App() {
 
       <div className = "card">
         <img src={product.image}></img>
-        <div class="titleAndPrice">
+        <div className="titlePrice">
         <h3>{product.name}</h3>
         <p>{product.price}</p>
           </div>
@@ -25,18 +25,24 @@ function App() {
 
 
   <div className="App">
+    
     <div className="App-header">
-      <h1>My Furniture Store</h1>
-      <h4>Fin!</h4>
-
-      <div class="lazzoni-store-frame">
-      <img class="lazzoni-store-img" src="https://cdn.shopify.com/s/files/1/0568/6362/1297/files/Parasmus-2.2_cdbf7619-1bf5-4d58-805a-33bfb9b6070b.jpg?v=1676368658"/>
-      </div>
+      
+        <div className="logo-storeName-slogan-frame">
+          <div className="logo-storeName">
+            <img className="logo" src="https://www.nicepng.com/png/detail/17-178633_nest-logo-chair-png-from-coefficient-design-interiors.png"></img>
+            <h1>Lazzoni</h1>
+          </div>
+          <h4>Crafted with Excellence</h4>
+          </div>
+      
+      <div className="shadow-overlay"></div>
+     
 
     </div>
 
   </div>
-    <div class="card-frame">{productsLists}</div>
+    <div className="card-frame">{productsLists}</div>
 
 
 
